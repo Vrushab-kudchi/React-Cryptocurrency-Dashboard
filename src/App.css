@@ -1,0 +1,15 @@
+.ant-layout-sider-collapsed .sm-logo {
+  display: block;
+}
+
+.ant-layout-sider-collapsed .lg-logo {
+  display: none;
+}
+
+.sm-logo {
+  display: none;
+}
+
+.ant-menu-title-content {
+  font-size: 16px;
+}
