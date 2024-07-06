@@ -27,3 +27,8 @@ Make sure you have the following installed on your machine:
 
    ```bash
    git clone https://github.com/Vrushab-kudchi/React-Cryptocurrency-Dashboard.git
+
+
+## Live Site
+
+Check out the live site at [https://7dcryptocurrency.netlify.app/coins](https://7dcryptocurrency.netlify.app/coins).
