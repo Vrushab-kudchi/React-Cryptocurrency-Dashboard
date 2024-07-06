@@ -32,14 +32,15 @@ export const MainLayout = () => {
         }}
       >
         <div className="demo-logo-vertical">
-          <h2 className="text-white fs-5 text-center py-3 mb-0">
+          <h2 className="text-white text-xl text-center py-3 mb-0">
             <span className="sm-logo">7D</span>
-            <span className="lg-logo"> Cryptocurrency </span>
+            <span className="lg-logo">Cryptocurrency</span>
           </h2>
         </div>
         <Menu
           theme="dark"
           mode="inline"
+          className="py-6 font-bold"
           defaultSelectedKeys={[""]}
           onClick={({ key }) => {
             if (key === "signout") {
@@ -51,12 +52,12 @@ export const MainLayout = () => {
           items={[
             {
               key: "",
-              icon: <AiOutlineDashboard className="fs-4" />,
+              icon: <AiOutlineDashboard className="fs-5" />,
               label: "Dashboard",
             },
             {
               key: "coins",
-              icon: <SiBitcoinsv className="fs-4" />,
+              icon: <SiBitcoinsv className="fs-5" />,
               label: "Coins",
             },
           ]}
@@ -75,7 +76,7 @@ export const MainLayout = () => {
             type="text"
             icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
             onClick={() => setCollapsed(!collapsed)}
-            style={{ fontSize: "16px", width: 64, height: 64 }}
+            style={{ fontSize: "18px", width: 64, height: 64 }}
           />
         </Header>
         <Content

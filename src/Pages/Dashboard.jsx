@@ -32,7 +32,7 @@ export default function Dashboard() {
         <h1 className="text-3xl font-bold my-6">Top 10 cryptocurrencies</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {sortedCoins &&
-            sortedCoins.slice(0, 9).map((coin) => (
+            sortedCoins.slice(0, 10).map((coin) => (
               <div
                 key={coin.id}
                 className="bg-slate-100 rounded-lg shadow-2xl p-4 flex flex-col md:flex-row items-start md:items-center hover:bg-stone-300"

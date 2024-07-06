@@ -13,3 +13,15 @@
 .ant-menu-title-content {
   font-size: 16px;
 }
+
+/* Remove arrow for input */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
